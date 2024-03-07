@@ -1,2 +1,3 @@
-# js-utilties
-A monorepository that contains commonly used JavaScript/Typescript related utilities.
+# @lookingfour/js-utilities
+
+A package containing commonly used javascript utilities.
