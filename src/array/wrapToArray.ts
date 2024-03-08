@@ -28,7 +28,7 @@ export interface WrapToArrayOptions {
  */
 export function wrapToArray<V>(
   value: V | V[],
-  options: WrapToArrayOptions = {}
+  options: undefined | WrapToArrayOptions = {}
 ): V[] {
   const {
     newArray = false,
