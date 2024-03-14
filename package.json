@@ -1,6 +1,6 @@
 {
   "name": "@lookingfour/js-utilities",
-  "version": "0.1.0-0",
+  "version": "0.1.0",
   "description": "A package containing commonly used javascript utilities.",
   "author": {
     "email": "dev@lookingfour.com",
