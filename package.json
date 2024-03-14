@@ -48,6 +48,11 @@
       "import": "./dist/esm/string/index.js",
       "require": "./dist/cjs/string/index.js",
       "default": "./dist/esm/string/index.js"
+    },
+    "./types": {
+      "import": "./dist/esm/types/index.js",
+      "require": "./dist/cjs/types/index.js",
+      "default": "./dist/esm/types/index.js"
     }
   },
   "files": [
