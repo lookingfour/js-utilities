@@ -68,7 +68,6 @@
     "eslint-fix": "bun run eslint-check --fix",
     "lint-check": "bun run eslint-check . && bun run prettier-check . && bun run typelint-check",
     "lint-fix": "bun run eslint-fix . && bun run prettier-fix . && bun run typelint-fix",
-    "prepare": "husky",
     "prettier": "prettier",
     "prettier-check": "bun run prettier --check",
     "prettier-fix": "bun run prettier --write",
