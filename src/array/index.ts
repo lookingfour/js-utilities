@@ -1,4 +1,4 @@
-export * from "./wrapToArray";
+export * from "./add";
 export * from "./isArrayNotEmpty";
 export * from "./lastIndex";
 export * from "./remove";
