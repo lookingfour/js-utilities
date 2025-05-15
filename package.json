@@ -22,35 +22,42 @@
     "url": "https://github.com/lookingfour/js-utilities/issues"
   },
   "type": "module",
-  "main": "./dist/index.js",
-  "module": "./dist/index.js",
+  "main": "./dist/esm/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/esm/index.d.ts",
       "import": "./dist/esm/index.js",
       "require": null,
       "default": "./dist/esm/index.js"
     },
     "./array": {
+      "types": "./dist/esm/array/index.d.ts",
       "import": "./dist/esm/array/index.js",
       "require": null,
       "default": "./dist/esm/array/index.js"
     },
     "./constants": {
+      "types": "./dist/esm/constants/index.d.ts",
       "import": "./dist/esm/constants/index.js",
       "require": null,
       "default": "./dist/esm/constants/index.js"
     },
     "./number": {
+      "types": "./dist/esm/number/index.d.ts",
       "import": "./dist/esm/number/index.js",
       "require": null,
       "default": "./dist/esm/number/index.js"
     },
     "./string": {
+      "types": "./dist/esm/string/index.d.ts",
       "import": "./dist/esm/string/index.js",
       "require": null,
       "default": "./dist/esm/string/index.js"
     },
     "./types": {
+      "types": "./dist/esm/types/index.d.ts",
       "import": "./dist/esm/types/index.js",
       "require": null,
       "default": "./dist/esm/types/index.js"
