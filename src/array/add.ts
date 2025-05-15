@@ -1,4 +1,4 @@
-import type { ArrayOperationOptions } from "./types";
+import type { ArrayOperationOptions } from "./types.js";
 
 /**
  * Add the given value if it not yet in the given array.

@@ -1,4 +1,4 @@
-import type { ArrayOperationOptions } from "./types";
+import type { ArrayOperationOptions } from "./types.js";
 
 /**
  * Removes the given value from the array.

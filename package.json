@@ -21,37 +21,38 @@
     "email": "dev@lookingfour.com",
     "url": "https://github.com/lookingfour/js-utilities/issues"
   },
-  "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
   "exports": {
     ".": {
       "import": "./dist/esm/index.js",
-      "require": "./dist/cjs/index.js",
+      "require": null,
       "default": "./dist/esm/index.js"
     },
     "./array": {
       "import": "./dist/esm/array/index.js",
-      "require": "./dist/cjs/array/index.js",
+      "require": null,
       "default": "./dist/esm/array/index.js"
     },
     "./constants": {
       "import": "./dist/esm/constants/index.js",
-      "require": "./dist/cjs/constants/index.js",
+      "require": null,
       "default": "./dist/esm/constants/index.js"
     },
     "./number": {
       "import": "./dist/esm/number/index.js",
-      "require": "./dist/cjs/number/index.js",
+      "require": null,
       "default": "./dist/esm/number/index.js"
     },
     "./string": {
       "import": "./dist/esm/string/index.js",
-      "require": "./dist/cjs/string/index.js",
+      "require": null,
       "default": "./dist/esm/string/index.js"
     },
     "./types": {
       "import": "./dist/esm/types/index.js",
-      "require": "./dist/cjs/types/index.js",
+      "require": null,
       "default": "./dist/esm/types/index.js"
     }
   },
@@ -60,9 +61,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "bun run build-cjs && bun run build-esm",
-    "build-cjs": "rimraf dist/cjs && tsc --project tsconfig.cjs.json",
-    "build-esm": "rimraf dist/esm && tsc --project tsconfig.esm.json",
+    "build": "rimraf dist && tsc --project tsconfig.build.json",
     "eslint": "eslint --no-error-on-unmatched-pattern",
     "eslint-check": "bun run eslint --report-unused-disable-directives --max-warnings=0",
     "eslint-fix": "bun run eslint-check --fix",
