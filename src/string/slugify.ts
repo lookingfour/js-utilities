@@ -1,4 +1,4 @@
-import { removeStopWords } from "./stopWord";
+import { removeStopWords } from "./stopWord.js";
 
 interface SlugifyOptions {
   /**

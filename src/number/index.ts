@@ -1,2 +1,2 @@
-export * from "./clampNumber";
-export * from "./reduceNumberToSuffix";
+export * from "./clampNumber.js";
+export * from "./reduceNumberToSuffix.js";

@@ -1,4 +1,4 @@
-import type { ArrayOperationOptions } from "./types";
+import type { ArrayOperationOptions } from "./types.js";
 
 /**
  * Remove and replace the value on the given index.

@@ -1,3 +1,3 @@
-export * from "./grammar";
-export * from "./slugify";
-export * from "./stopWord";
+export * from "./grammar.js";
+export * from "./slugify.js";
+export * from "./stopWord.js";
